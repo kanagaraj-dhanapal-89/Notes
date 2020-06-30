@@ -1,0 +1,14 @@
+1) Difference between library and moudle
+
+Liberary:
+  Collections of modules + c modules 
+  
+Module:
+  independent units that can be used to construct a more complex structure.
+  
+2) Sorting a list in single loop:
+
+3) regex for complex json 
+
+4) Sql: Sequence
+
