@@ -5,3 +5,46 @@
   -- xrange
   -- Error Handling
   -- _future_ module
+
+
+# Division operator
+  print 7 / 5
+
+  print -7 / 5	
+  ''' 
+  Output in Python 2.x 
+  1 
+  -2 
+  Output in Python 3.x : 
+  1.4 
+  -1.4 
+  # Refer below link for details 
+
+  # https://www.geeksforgeeks.org/division-operator-in-python/ 
+  '''
+  
+# print statement
+  
+  print 'Hello, Geeks'      # Python 3.x doesn't support  
+  
+  print('Hope You like these facts')
+
+# Unicode:
+  In Python 2, implicit str type is ASCII. But in Python 3.x implicit str type is Unicode.
+  
+# xrange:
+  ==> 2.x 
+    -- range(3) Returns: [0,1,2]
+    -- xrange(3) is an itrator, will return the number when its needed
+    
+  ==> 3.x:
+    -- there is no xrange
+    -- xrange in 2.x is replaced in 3.x
+    
+# Error handling:
+  In python 3.x, ‘as’ keyword is required.
+    
+ 
+# _future_ module:
+  If we are planning to have Python 3.x support in our 2.x code, we can use _future_ imports in our code.
+ 
