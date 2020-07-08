@@ -12,3 +12,111 @@ Module:
 
 4) Sql: Sequence
 
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+CUID 
+
+CREATE 
+UPDATE 
+ISERT 
+DELETE 
+
+
+EMP TBL 
+EID Ename Dept doj 
+
+Eid EManager Deskdetails cuid 
+
+SELECT A.eid,
+       A.ename,
+       A.dept,
+       A.doj,
+       B.EManager,
+       B.Deskdetails,
+       B.cuid
+FROM emptable A
+INNER JOIN EManagerdetaisl B 
+    ON A.eid = B.eid 
+
+v = 0.0
+
+map 
+Dict
+
+l = list() 
+
+for i in elemnets:
+    if 
+
+
+n2
+map(lambda a: a + 1 , listites )
+
+UPSERT 
+
+MERGE 
+
+tmp 
+
+PROD 
+
+MERGE Prodtable p WITH tmptble t ON p.epid = t.epid 
+WHEN MATCH 
+    SET p.doj = t.doj 
+WHEN NOT MATCH 
+    INSERT INTO Prodtable
+    t.epid,
+    t.ename,
+    t.dept 
+    t.doj 
+
+    
+
+INNER JOIN 
+
+
+"EvCfg": {
+        "EvControl": [
+          {
+            "EvPriority": "emergency",
+            "EvReporting": "local,notification"
+          },
+          {
+            "EvPriority": "alert",
+            "EvReporting": "local,notification"
+          },
+          {
+            "EvPriority": "critical",
+            "EvReporting": "local,notification"
+          },
+          {
+            "EvPriority": "error",
+            "EvReporting": "local,notification"
+          },
+          {
+            "EvPriority": "warning",
+            "EvReporting": "local,notification"
+          },
+          "EvManage":
+        "EvTrans": [
+          {
+            "EvPriority": "emergency",
+            "EvReporting": "local,notification"
+          },
+          {
+            "EvPriority": "alert",
+            "EvReporting": "local,notification"
+          },
+          {
+            "EvPriority": "critical",
+            "EvReporting": "local,notification"
+          },
+          {
+            "EvPriority": "error",
+            "EvReporting": "local,notification"
+          },
+          {
+            "EvPriority": "warning",
+            "EvReporting": "local,notification"
+          },
+
