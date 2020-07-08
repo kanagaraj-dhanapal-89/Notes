@@ -1,0 +1,48 @@
+a=[8,7,2,5,3,1] 
+k=10 
+
+for i in range(len(a)):
+    for j in range(len(a)):
+        j += 1
+        if j < len(a) and a[i] + a[j] == k:
+            print(i, j)
+
+a + b = k 
+
+8 + b = 10 
+
+a=[4,8,7,2,5,3,1] 
+result = dict()
+{
+    6: 4,
+    2: 8,
+    3: 7,
+    8: 2
+}
+for el in a:
+    re = k - el
+    result[re] = el
+
+for el in a:
+
+
+emp 
+
+eid ename esalary edept 
+
+SELECT 
+    SELECT esalary,
+           RANK() OVER (ORDER BY esalary desc) as rank 
+    FROM emp 
+WHERE rank = 3
+
+SELECT edept,
+       AVG(esalary) OVER (PARTITION BY edept
+FROM emp 
+
+
+SELECT edept,
+       AVG(esalary) as avg_salary 
+FROM emp 
+GROUP BY edept 
+HAVING AVG(esalary) > 50k
