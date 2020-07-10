@@ -46,3 +46,81 @@ SELECT edept,
 FROM emp 
 GROUP BY edept 
 HAVING AVG(esalary) > 50k
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Round 3:
+
+eid deptid 
+
+1   10
+2   10
+3   10 
+4   20 
+5   20 
+
+eid 
+depit,
+
+
+1  10 3 
+2  10 3 
+3  10 3 
+4  20 2 
+5  20 2 
+
+SEELCT A.eid,
+       A.depid,
+       B.count_ 
+FROM emtable A 
+INNER JOIN (
+    SELECT depit,
+           count(1) as count_ 
+    FROM emtable 
+    GROUP BY 1
+)B 
+ON A.depid = B.depid 
+
+SELECT epid, 
+       depid,
+      SUM(1) OVER (PARTITION BY depid) AS count_ 
+FROM emtable 
+
+df = df.nan()
+
+
+0 1 1 2 3 5 8 13 
+
+
+def feb(n):
+    fn = 0 
+    fn1 = 1 
+    result = list()
+    result.apped(0)
+    result.apped(1)
+    for i in range(1, n):
+        result.append(fn + fn1)
+        fn = fn1
+        fn1 = fn + fn1
+    print(result)
+
+list = [10, 20, 30]
+
+rdd1 = sc.parallelzie(list)
+
+def prime(rec):
+
+    flag = 0
+    for i in range(2, rec):
+        if rec % i == 0:
+            flag = 1
+            break
+    
+    if flag == 0:
+        return True 
+    else:
+        return False 
+    
+rdd2 = rdd1.map(lambda rec: r)
+
+rdd2.take(1)
