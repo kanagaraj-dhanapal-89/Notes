@@ -1,0 +1,9 @@
+1) Desinge pattern in scala
+2) combined object in scala 
+3) how to extend the interface 
+4) abstract class vs traid
+5) how map will store the key 
+6) binary search tree time complexity 
+7) merge sort time complexity 
+8) is there multiple inheritance ?
+9) find top 5 numbers in infinite sequence 
