@@ -7,3 +7,4 @@
 7) merge sort time complexity 
 8) is there multiple inheritance ?
 9) find top 5 numbers in infinite sequence 
+10) difference between val and var
