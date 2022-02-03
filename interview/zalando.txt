@@ -5,3 +5,21 @@ round 2:
   4) String is mutable or immutable?
   5) sum of digits (python program )
   6) find all subset which is sum is equal to k
+  
+round 3:
+  sround 1:
+    1) python decorators 
+    2) how to pass n of args 
+    3) how to pass possinal args
+    4) difference between java and python 
+    5) diffference between int and Integer 
+    6) git: merging vs rebash
+    7) how do you optimize the query
+    
+  sround 2:
+    1) diff between rdd and dataframe 
+    2) what is git 
+    3) CICD 
+    4) optimzations in spark 
+    5) explain about data warehousing 
+    
