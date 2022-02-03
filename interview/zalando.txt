@@ -1,0 +1,7 @@
+round 2: 
+  1) when to use "is" operator and "==" ?
+  2) difference between tuple and dict or list 
+  3) difference between mutablle and immutable
+  4) String is mutable or immutable?
+  5) sum of digits (python program )
+  6) find all subset which is sum is equal to k
