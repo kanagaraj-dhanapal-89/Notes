@@ -23,3 +23,23 @@ round 3:
     4) optimzations in spark 
     5) explain about data warehousing 
     
+
+python decorators, number of time a function is called
+c = 0
+def print_counter(f):
+    
+    def counter(a,b,c):
+        c += 1
+        print("add function calling %d time" % c)
+        f(a,b,c)
+        
+        return c
+    return counter
+
+@print_counter
+def add(a,b,c):
+    print(" sum: " , a + b)
+    
+    
+c = add(4,5, c)
+c = add(5,5, c)
