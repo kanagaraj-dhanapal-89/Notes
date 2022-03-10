@@ -51,3 +51,62 @@ Miscellaneous
 2.       https://stackoverflow.com/questions/61433192/quick-solution-to-handle-service-to-service-authentication-in-a-microservices-ar
 
  
+A car rental service.
+
+Provide cars (different types)
+customer try to book cars for particular dates 
+we have to receive payments for the completed trips
+
+tblcustomer:
+    customer_id,
+    custname,
+    cust_address,
+    username,
+    password
+
+cartbl:
+    car_id,
+    carname,
+    car_type,
+    car_pate_number,
+    car_color,
+    number_sets
+
+triptbl:
+    trip_id,
+    car_id,
+    customer_id,
+    trip_start_date,
+    trip_end_date,
+    trip_start_address,
+    trip_end_address
+
+paymenttbl:
+    payment_id,
+    trip_id,
+    amount,
+    payment_date
+    
+select A.*
+FROM cartbl A 
+LEFT JOIN(
+    SELECT *
+    FROM triptbl
+    WHERE ({parameter_start_date} >= trip_start_date  AND {parameter_end_date} >= trip_end_date  ) 
+    OR ({parameter_start_date} <= trip_start_date AND{parameter_end_date} <= trip_end_date ) 
+    W
+)  B 
+ON A.car_id = B.car_id
+WHERE B.car_id IS NULL 
+
+
+    Booked start  booked end
+  2022-03-15 to 2022-03-17
+  2022-03-14 to 2022-03-15
+
+  2022-03-16 to 2022-03-18
+     
+
+
+
+
