@@ -1,0 +1,53 @@
+Before interview
+
+2.       DB Design:
+
+·         DB scaling techniques: Sharding, partitioning, replication & archival,
+
+·         Clustered & Non-Clustered Indexes, Index fragmentation, B-Trees,
+
+·         Scalable table design & normalization; columnar database schema design
+
+·         OLTP vs OLAP, CAP & ACID, RDBMS vs NoSQL etc.
+
+·         Writing Queries
+
+4.       Questions around internals of languages, technologies & frameworks you have worked on
+
+·         Involvement in driving & solutioning for the project
+
+·         Evaluation of technical choices & decisions
+
+·         Depth+Breadth in knowledge of technologies/languages/frameworks you have worked on v/s others (Eg: RabbitMQ v/s SQS-SNS v/s other queues etc.)
+
+·         Experience in influencing design/technical decisions
+
+5.       Basic understanding of SDLC practices followed in your current organization including CI/CD, code coverage, quality gates & Jenkins, deployment (handling rollback), code quality & rules, high performance, low latency, handling technical debt etc. Basics of SRE (setting up SLI/SLOs for microservices is enough)
+
+Sample Problems (Just for practice)
+
+Database Design & Schema:
+
+1.       https://practice.geeksforgeeks.org/problems/design-database-for-e-commerce
+
+2.       https://www.inettutor.com/source-code/car-rental-system-database-design/
+
+ 
+
+Java:
+
+1.       Synchronization v/s Locks in Java; Concurrency; Multi-threading
+
+2.       Dependency Injection; Lambdas
+
+3.       Newer Java versions (beyond 8) v/s Java 8- practical comparisons
+
+ 
+
+Miscellaneous
+
+1.       https://softwareengineering.stackexchange.com/questions/399308/how-to-manage-event-dependencies-in-event-driven-architectures
+
+2.       https://stackoverflow.com/questions/61433192/quick-solution-to-handle-service-to-service-authentication-in-a-microservices-ar
+
+ 
