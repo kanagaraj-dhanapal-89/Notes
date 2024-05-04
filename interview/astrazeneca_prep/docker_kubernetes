@@ -1,0 +1,153 @@
+current usage:
+    Tools Used:
+        -- Spark
+        -- Kafka
+        -- Docker
+        -- Kubernetes
+        -- ArgoCD
+        -- Grafana
+        -- Hudi
+        -- Helm Chat
+
+    Flows:
+        --K2H
+        --K2GCS
+        --GCS2GCS
+
+
+1) what is kubernetes?
+    Kubernetes is an open-source container orchestration tool or system that is used to automate tasks such as the management, monitoring, scaling, and deployment of containerized applications.
+
+2) What are the main components of Kubernetes architecture?
+    -- master node
+    -- worker node
+
+3) Kubernetes architecture:
+    -- cluster store (KV)
+        -- stores configuration details and essentail values
+        -- it communicates with all other components to receive the commands to perform the actions
+        -- manages network rules and post forwarding activity
+    -- controller
+        -- replication controllers
+        -- endpoint controllers
+        -- namespace controller
+        -- service account controller
+    -- scheduler
+        -- Assign the task to the slave nodes
+        -- Distributing the workload and stores the resource usage information
+
+    -- Api-server
+        -- API server to perform all operations on the cluster
+
+4) kubelet
+    -- responsible for maintaining the work status and the node server
+
+5) Kubernetes Proxy
+    -- load balancer
+    -- network proxy to perform service on a single worker node
+    -- Manages pods on nodes, volumes, secrets, the creation of new containers, health check-ups
+
+6) Here’s a review of the fundamental concepts of Kubernetes architecture.
+
+    Pod: A group of containers
+    Labels: Used to identify pods
+    Kubelet: Container agents responsible for maintaining pod sets
+    Proxy: Pod load balancers that help distribute tasks
+    Etcd: A metadata service
+    CAdvisor: Monitors resource performance and usage
+    Replication controller: Manages pod replication
+    Scheduler: Schedules pods in worker nodes
+
+7) Heapster
+    -- performance monitor
+    -- metrics collection system for data collected by kublet
+
+8) Namespace in Kubernetes:
+    -- dividing cluster resources between multiple users.
+
+9) initial namespaces
+    -- default
+    -- kube - system
+    -- kube - public
+
+10) Ingress network
+    -- all users to access the kubernetes services from outside
+
+11) headless service
+    -- tied to a ClusterIP
+    -- allowing you to directly reach pods without having to access them through a proxy.
+    -- it is useful when neither load balancing nor a single Service IP is required.
+
+12) federated clusters:
+    -- multiple clusters that treat them as a single logical cluster
+
+13) Daemon sets
+    --  a set of pods that runs only once on a host
+
+---------------------------------------------------------------------------------------------------------------
+
+Basic Concepts:
+
+What is Docker?
+What are the benefits of using Docker containers?
+    Docker:
+        An image is a read-only template with instructions for creating a Docker container.
+        Often, an image is based on another image, with some additional customization
+
+     Docker containers:
+        A container is a runnable instance of an image.
+        You can create, start, stop, move, or delete a container using the Docker API or CLIA container is a runnable instance of an image.
+        You can create, start, stop, move, or delete a container using the Docker API or CLI
+What is the difference between a Docker image and a Docker container?
+How does Docker work? (Explain the concept of containerization and the Docker daemon)
+What is a Dockerfile? Explain the different instructions used in a Dockerfile.
+What is a Docker registry? (e.g., Docker Hub)
+How do you manage volumes in Docker containers?
+How do you link Docker containers?
+How do you expose ports in a Docker container?
+What is the difference between Docker Swarm and Kubernetes?
+
+Advanced Concepts:
+How do you build a multi-stage Docker build?
+Explain Docker networking modes (bridge, host, overlay, etc.)
+How do you handle environment variables in Docker containers?
+What are Docker secrets and configs?
+How do you secure Docker containers?
+How do you monitor Docker containers?
+What are Docker Compose and its benefits?
+Explain Docker content trust and how it ensures image authenticity.
+Kubernetes Interview Questions:
+
+Basic Concepts:
+What is Kubernetes?
+What are the core components of Kubernetes (e.g., pods, deployments, services, etc.)?
+How does Kubernetes work? (Explain the role of the control plane and worker nodes)
+What are the benefits of using Kubernetes?
+What is a Kubernetes pod? Explain the difference between a ReplicaSet and a Deployment.
+What is a Kubernetes service? Explain the different types of services (e.g., NodePort, LoadBalancer)
+How do you scale deployments in Kubernetes?
+How do you manage secrets and configuration data in Kubernetes?
+How do you expose a Kubernetes service externally?
+
+Advanced Concepts:
+How do you handle rolling updates and rollbacks in Kubernetes?
+What are Kubernetes namespaces and their purpose?
+Explain Ingress resources and how they route traffic to services.
+How do you monitor and troubleshoot applications running in Kubernetes?
+What are Kubernetes Persistent Volumes (PVs) and Persistent Volume Claims (PVCs)?
+What are custom resources and operators in Kubernetes?
+How do you achieve high availability in Kubernetes deployments?
+Explain different scheduling strategies in Kubernetes.
+What are security best practices for deploying applications in Kubernetes?
+Bonus:
+
+Be prepared to discuss your experience with container orchestration tools or platforms besides Docker and Kubernetes (e.g., Docker Swarm, Rancher)
+Be able to explain real-world use cases of Docker and Kubernetes in different industries.
+These are some of the common Docker and Kubernetes interview questions. The specific questions you encounter will depend on the role you are applying for and the company's specific needs. It's always a good idea to research the company and the specific role beforehand to tailor your answers accordingly.
+
+Here are some additional resources that you may find helpful:
+
+Docker Documentation: https://docs.docker.com/
+Kubernetes Documentation: https://kubernetes.io/docs/home/
+Practice Kubernetes with Katacoda: https://kubernetes.io/blog/2023/02/14/kubernetes-katacoda-tutorials-stop-from-2023-03-31/
+

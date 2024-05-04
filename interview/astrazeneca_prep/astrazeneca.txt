@@ -1,0 +1,56 @@
+Job: Senior Consultant - Data Engineer
+JD:
+You will need to have
+
+8+ years overall IT industry experience.
+
+Experience designing, implementing data products supporting bespoke analytics and AI applications
+
+Design, develop, and deploy production-grade scalable data products using container technologies like Docker and Kubernetes with a focus on data testing and validation
+
+Solid experience using data and compute related services in AWS such as AWS S3, EC2, ECS, ECR, MWAA and EMR.
+
+Experience of data analysis – profiling, investigating, interpreting, and documenting data structures.
+
+Experience with & knowledge in a broad base of data tools, ETL frameworks, monitoring and data technologies, for example our stack includes: SAP HANA, SAP MDG, PowerBI, Qlik Sense, Qlik Replicate, Collibra, Snowflake, DBT. SnapLogic.
+
+Experience of visualisation technologies (we are focused on Power BI and Qlik Sense),
+
+Experience with code repositories such as GitHub.
+
+Production experience delivering CI/CD pipelines (Jenkins, ArgoCD, GitHub Actions).
+
+Knowledge of data architectures, design including data modelling
+
+Extensive experience in troubleshooting data issues, analyzing end to end data pipelines and in working with users in resolving issues.
+
+Advanced SQL skills and Experience in performance tuning SQL.
+
+Excellent verbal and written skills for effective communication with a variety of personas including, engineers, testers, architects, product managers, scientists, etc.
+
+Experience working in an Agile team.
+
+Experience in leading the technical team.
+
+Experience leveraging DevOps to enable automation strategies.
+
+Experience with data orchestration & scheduling tools such as Airflow.
+
+Knowledge about data cataloguing, master data and reference data management.
+
+-----------------------------------------------------------------------------------------------------------------
+
+Tools to focus:
+    -- Docker and Kubernetes
+    -- AWS such as AWS S3, EC2, ECS, ECR, MWAA and EMR.
+    -- profiling, investigating, interpreting, and documenting data structures.
+    -- ETL frameworks, monitoring and data technologies, for example our stack includes: SAP HANA, SAP MDG, PowerBI, Qlik Sense, Qlik Replicate, Collibra, Snowflake, DBT. SnapLogic.
+    -- Power BI and Qlik Sense
+    -- GitHub
+    -- Jenkins, ArgoCD, GitHub Actions
+    -- troubleshooting data issues, analyzing end to end data pipelines and in working with users in resolving issues.
+    -- Advanced SQL skills and Experience in performance tuning SQL.
+    -- Airflow
+-----------------------------------------------------------------------------------------------------------------
+
+
